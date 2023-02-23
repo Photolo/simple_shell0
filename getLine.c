@@ -89,7 +89,7 @@ ssize_t get_input(info_t *info)
 	return (r); /* return length of buffer from _getline() */
 }
 
-**
+/**
  * read_buf - reads a buffer
  * @info: parameter struct
  * @buf: buffer
@@ -156,7 +156,7 @@ int _getline(info_t *info, char **ptr, size_t *length)
 	return (s);
 }
 
-**
+/**
  * sigintHandler - blocks ctrl-C
  * @sig_num: the signal number
  *
